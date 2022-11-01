@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Grupo Huellitas">
+	
+	<title>Consultas</title>
+
+	<link rel="shortcut icon" href="../images/img.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../estilos/css/font-awesome.min.css">
+
+	
+	<link rel="stylesheet" href="../estilos/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="../estilos/css/main.css">
+
+	<link rel="stylesheet" href="../estilos/css/style.css">
+
+	
+</head>
+<body class="home">
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="../index.html"><img src="../images/img.png" alt="Logo Huellitas"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="adopcion.html">Adopción</a></li>
+							<li class="active"><a href="#">Consultas</a></li>
+							<li><a href="vacunacion.html">Vacunación</a></li>
+						</ul>
+					</li>
+					
+					<li><a class="btn" href="signin.html">SIGN IN / SIGN UP</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<header id="head">
+		<div class="container">
+			<div class="row">
+				
+			</div>
+		</div>
+	</header>
+	<div class="row formulario-contacto">
+			
+		<!-- Article main content -->
+		<article class="col-sm-9 maincontent">
+			<header class="page-header">
+				<h1 class="page-title">Una cita para tu mascota</h1>
+			</header>
+			
+			<p>
+			Todas las citas se confirmarán previamente dentro de las 48 horas de haber recibido la solicitud.
+			</p>
+			<br>
+				<form>
+					<div class="row">
+						<div class="col-sm-4">
+							<label for="Nombre">Nombre</label>	
+							<input class="form-control" type="text" placeholder="Nombre">
+						</div>
+						<div class="col-sm-4">
+							<label for="Apellidos">Apellidos</label>	
+							<input class="form-control" type="text" placeholder="Apellidos">
+						</div>
+						<div class="col-sm-4">
+							<label for="correoElectronico">Correo Electronico</label>
+							<input class="form-control" type="text" placeholder="Correo Electronico">
+						</div>
+						<div class="col-sm-4">
+							<label for="telefonoContacto">Telefono de Contacto</label>
+							<input class="form-control" type="text" placeholder="Telefono de contacto">
+						</div>
+						<div class="col-sm-4">
+							<label for="distrito">Distrito</label>
+							<select name="distrito" class="form-control">
+								<option value="Lima">Lima</option>
+								<option value="Ate">Ate</option>
+								<option value="San Miguel">San Miguel</option>
+								<option value="San Isidro">San Isidro</option>
+								<option value="Barranco">Barranco</option>
+								<option value="Miraflores">Miraflores</option>
+								<option value="San Borja">San Borja</option>
+								<option value="Surco">Surco</option>
+								<option value="San Luis">San Luis</option>
+								<option value="La Molina">La Molina</option>
+								<option value="La Victoria">La Victoria</option>
+								<option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+								<option value="San Juan de Miraflores">San Juan de Miraflores</option>
+								<option value="Pueblo Libre">Pueblo Libre</option>
+								<option value="Jesús María">Jesús María</option>
+								<option value="Magdalena del Mar">Magdalena del Mar</option>
+								<option value="Santa Anita">Santa Anita</option>
+								<option value="San Martin de Porres">San Martin de Porres</option>
+								<option value="Santa Rosa">Santa Rosa</option>
+								<option value="Santiago de Surco">Santiago de Surco</option>
+								<option value="Surquillo">Surquillo</option>
+								<option value="Villa María del Triunfo">Villa María del Triunfo</option>
+								<option value="San Juan de Miraflores">San Juan de Miraflores</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-sm-4">
+							<label for="nombreMascota">Nombre de la mascota</label>
+							<input class="form-control" type="text" placeholder="Nombre de la mascota">
+						</div>
+
+						<div class="col-sm-4">
+							<label for="fechaCita">Fecha de cita</label>	
+							<input class="form-control" type="date" placeholder="Fecha de la cita">
+						</div>
+
+						<div class="col-sm-4">
+						<label for="tipoMascota">Tipo de mascota</label>
+						<select class="form-control" name="tipoMascota" >
+						
+							<option value="Perro">Perro</option>
+							<option value="Gato">Gato</option>
+							<option value="Conejo">Conejo</option>
+							<option value="Hamster">Hamster</option>
+							<option value="Cuy">Cuy</option>
+							<option value="Pez">Pez</option>
+							<option value="Ave">Ave</option>
+							<option value="Tortuga">Tortuga</option>
+							<option value="Reptil">Reptil</option>
+							<option value="Otro">Otro</option>
+						</select>
+						</div>
+
+						<div class="col-sm-4">
+						<label for="raza">Raza</label>
+						<input class="form-control" type="text" placeholder="Raza de la mascota">
+						</div>
+
+						<div class="col-sm-4">
+						<label for="edad">Edad</label>
+						<input class="form-control" type="number" min="0"  placeholder="Edad de la mascota">
+						</div>
+						
+						<div class="col-sm-4">
+						<label for="peso">Peso</label>
+						<input class="form-control" type="number" min="0"  placeholder="Peso de la mascota">
+						</div>
+
+
+						<div class="col-sm-4">
+							<label for="vacuna">Vacuna</label>
+							<select class="form-control" name="vacuna" >
+							
+								<option value="Rabia">Rabia</option>
+								<option value="Parvovirus">Parvovirus</option>
+								<option value="Moquillo">Moquillo</option>
+								<option value="Leptospirosis">Leptospirosis</option>
+								<option value="Hepatitis">Hepatitis</option>
+								<option value="Coronavirus">Coronavirus</option>
+								<option value="Bordetella">Bordetella</option>
+								<option value="Tortuga">Tortuga</option>
+								<option value="Influenza">Influenza</option>
+								<option value="Otra">Otra</option>
+							</select>
+							</div>
+						
+						<div class="col-sm-4">
+							<label for="sexo">Sexo</label>
+							<select class="form-control" name="vacuna" >
+								<option value="macho">Macho</option>
+								<option value="hembra">Hembra</option>
+							</select>
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<textarea placeholder="Comentarios" class="form-control" rows="9"></textarea>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-6">
+							<label class="checkbox"><input type="checkbox"> Reg&iacute;strese para recibir un bolet&iacute;n informativo</label>
+						</div>
+						<div class="col-sm-6">
+							<label class="checkbox"><input type="checkbox"> Acepto haber le&iacute;do los <a target="_blank" href="terminos.html">T&eacute;rminos y condiciones.</a></label>
+						</div>
+						<div class="col-sm-6 text-right">
+							<input class="btn btn-action" type="submit" value="Solicitar cita!">
+						</div>
+					</div>
+				</form>
+
+		</article>
+		<!-- /Article -->
+		
+		<!-- Sidebar -->
+		<aside class="col-sm-3 sidebar sidebar-right">
+
+			<div class="widget">
+				<h4>Direccion - Sede Surco</h4>
+				<address>
+					Calle Juan Pezet 230, Santiago de Surco
+				</address>
+				<h4>Phone:</h4>
+				<address>
+					(51) 987 456 123
+				</address>
+			</div>
+
+		</aside>
+		<!-- /Sidebar -->
+
+	</div>
+	
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contacto</h3>
+						<div class="widget-body">
+							<p>+51 995061032<br>
+								<a href="mailto:#">huellitaspe@gmail.com</a><br>
+								<br>
+								Calle 20, Mz H Lt 8 Zárate San Juan de Lurigancho Lima, Perú
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">¡Síguenos!</h3>
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a target="_blank" href="https://tinyurl.com/229rscz6"><i class="fa fa-twitter fa-2"></i></a>
+								
+								<a target="_blank" href="https://tinyurl.com/2b2pdvtn"><i class="fa fa-instagram fa-2"></i></a>
+								<a target="_blank" href="https://tinyurl.com/2dzeey82"><i class="fa fa-facebook fa-2"></i></a>
+							</p>	
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Propósito</h3>
+						<div class="widget-body">
+							<p>En 2022, creamos Huellitas ante la necesidad de dar a nuestras mascotas una atención integral usando lo último de la tecnología, el calor de hogar y lograr para una tenencia más simple y responsable. Nuestros locales, 
+							se encuentren ubicados en los mejores lugares de la ciudad , disponiendo de la más amplia gama de mascotas, productos y accesorios. Diseñamos nuestros servicios de manera que puedan ver todo el proceso de baño y peluquería, garantizando así el buen trato de todo nuestro personal. 
+							<a target="_blank" href="terminos.html"> Haz click aquí para leer nuestros términos y condiciones.</a></p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="simplenav">
+								<a href="../index.html">Inicio</a> | 
+								<a href="nosotros.html">Nosotros</a> |
+								<a href="consultas.html">Consultas</a> |
+								<a href="adopcion.html">Adopci&oacute;n</a> |
+								<b><a href="vacunacion.html">Vacunaci&oacute;n</a></b>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-right">
+								Copyright &copy; 2022, Huellitas. Diseñado por el grupo de "Huellitas" :D</a> 
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>		
+		
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>

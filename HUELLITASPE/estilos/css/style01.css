@@ -1,0 +1,39 @@
+.imagen001 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    vertical-align: text-top;
+} 
+
+.imagen002 {
+    border-radius: 15px;
+}
+
+.imagen003 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+textarea {
+    resize: none;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: blanchedalmond;
+}
+
+.cuadro {
+    width: 85%;
+}
+.estilosmodal {
+    background-color: aqua;
+}
